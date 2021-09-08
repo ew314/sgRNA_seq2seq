@@ -12,7 +12,7 @@ matplotlib == 2.2.3<br>
 ---
 Relative activity predictor
 ---------------------------------
-This model is trained to predict the relative activity of mismatched sgRNA with its original matched sgRNA
+This model is trained to predict the relative activity of mismatched sgRNA with its original matched sgRNA.
 
 ---
 seq2seq-attention
