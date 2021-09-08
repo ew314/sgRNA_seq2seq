@@ -6,6 +6,7 @@ Python == 2.7.16<br>
 numpy == 1.16.5<br>
 tensorflow == 1.7.0<br>
 keras == 2.1.6<br>
+scipy == 1.2.1<br>
 sklearn == 0.20.3<br>
 matplotlib == 2.2.3<br>
 
