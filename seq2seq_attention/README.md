@@ -33,4 +33,4 @@ User need to edit scripts to modify some settings. <br>
 `final_model`     : Pre-trained seq2seq-attention model.<br>
 `output_file`     : Output file name.<br>
 
-[1]Sanjana NE, Shalem O, Zhang F: Improved vectors and genome-wide libraries for CRISPR screening. Nature methods 2014, 11(8):783-784.(https://www.nature.com/articles/nmeth.3047)
+[[1]Sanjana NE, Shalem O, Zhang F: Improved vectors and genome-wide libraries for CRISPR screening. Nature methods 2014, 11(8):783-784.](https://www.nature.com/articles/nmeth.3047)<br>
