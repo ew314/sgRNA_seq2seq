@@ -18,8 +18,10 @@ User need to edit scripts to modify some settings. <br>
 `model_save_loc`      : Folder path for temporary trained models during 1200 epoches.<br>
 `final_model_loc`     : Folder path for final trained model after 1200 epoches.<br>
 `vocab_dict_path`     : Dict for encoding sequences into binary.<br>  
-
-1.Predict mismatched sgRNA with trained seq2seq-attention model
+<br>
+pre-trained models were in Multi_final_model and Single_final_model
+<br>
+2.Predict mismatched sgRNA with trained seq2seq-attention model
 --------------
 
     python Seq2seqattention.load_model.py
