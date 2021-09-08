@@ -12,23 +12,21 @@ matplotlib == 2.2.3<br>
 ---
 Relative activity predictor
 ---------------------------------
-This model is trained to predict the relative activity of mismatched sgRNA with its original matched sgRNA.<br>
-
+This model is trained to predict the relative activity of mismatched sgRNA with its original matched sgRNA, We basically followed the model architecture constructed by Marco https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-019-0387-5/MediaObjects/41587_2019_387_MOESM4_ESM.html and used the relative activity data of mismatched sgRNAs from https://www.nature.com/articles/s41587-021-00946-z
 
 ---
 seq2seq-attention
 ---------------------------------
-this model is trained to predict matched sgRNA or mismatched sgRNA with higher activity than matched sgRNA for input DNA target. Relative activity of mismatched sgRNA are predicted with the relative activity predictor above. Initial training set are letters_source_high_uniqe_22.txt and letters_target_high_uniqe_22.txt. Model will gain more input DNA - output sgRNA pairs from feedback_data with a feedback mechanism. Model's performance is evaluated with vaildation_data<br>
-pre-trained model is in https://github.com/ew314/ew314/tree/main/sgRNA_designer/seq2seq_attention/trained_model<br>
-
----
-Absolute activity predictor
----------------------------------
-this model is trained to predict the absolute activity of matched sgRNA.<br>
-pre-trained model is https://github.com/ew314/ew314/blob/main/sgRNA_designer/absolute_on_target_activity/NC_WT_float_model.h5<br>
+This model is trained to predict matched sgRNA or mismatched sgRNA with high activity for input DNA target. Relative activity of mismatched sgRNA are predicted with the relative activity predictor above.<br>
 
 ---
 Promotion potential classifier
 ---------------------------------
-these two models are trained to classify which kind of DNA input would be predicted with matched sgRNA or mismatched sgRNA by seq2seq-attention model.<br>
-One model is trained with DNA input in feedback_data and evaluated with DNA in vaildation_data. Another model is trained with DNA input in vaildation_data and evaluated with DNA in feedback_data.<br>
+These models are trained to classify which kind of DNA input would be predicted with matched sgRNA or mismatched sgRNA by seq2seq-attention model.<br>
+
+---
+Absolute activity predictor
+---------------------------------
+this model is trained to predict the absolute off-target activity on genome.<br>
+
+---
