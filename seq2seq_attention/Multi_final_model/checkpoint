@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/rongyu/project/GAN/2020.6.9/RY/seq2seq/train_progress/zf_assist_data/beamsearch/final/final/final_model/train.highest_unique_train.add_highest_and_unique.add_all.model.ckpt-1200"
+all_model_checkpoint_paths: "/home/rongyu/project/GAN/2020.6.9/RY/seq2seq/train_progress/zf_assist_data/beamsearch/final/final/model_save/1197.train.highest_unique_train.add_highest_and_unique.add_all.model.ckpt-1200"
+all_model_checkpoint_paths: "/home/rongyu/project/GAN/2020.6.9/RY/seq2seq/train_progress/zf_assist_data/beamsearch/final/final/model_save/1198.train.highest_unique_train.add_highest_and_unique.add_all.model.ckpt-1200"
+all_model_checkpoint_paths: "/home/rongyu/project/GAN/2020.6.9/RY/seq2seq/train_progress/zf_assist_data/beamsearch/final/final/model_save/1199.train.highest_unique_train.add_highest_and_unique.add_all.model.ckpt-1200"
+all_model_checkpoint_paths: "/home/rongyu/project/GAN/2020.6.9/RY/seq2seq/train_progress/zf_assist_data/beamsearch/final/final/model_save/1200.train.highest_unique_train.add_highest_and_unique.add_all.model.ckpt-1200"
+all_model_checkpoint_paths: "/home/rongyu/project/GAN/2020.6.9/RY/seq2seq/train_progress/zf_assist_data/beamsearch/final/final/final_model/train.highest_unique_train.add_highest_and_unique.add_all.model.ckpt-1200"
