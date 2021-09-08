@@ -2,7 +2,7 @@ Mismatched sgRNA seq2seq-attention model
 ================================
 This repository includes an approach to training Single-mismatched sgRNA seq2seq-attention model and Multi-mismatched sgRNA seq2seq-attention model. Pre-trained models also could directly be used to predicted mismatched sgRNA with input DNA target set.
 
-![Flow](https://github.com/ew314/sgRNA_seq2seq/tree/main/seq2seq_attention/flow.jpg)
+![Flow](https://github.com/ew314/sgRNA_seq2seq/blob/main/seq2seq_attention/flow.jpg)
 
 1.training Single/Multi-mismatched sgRNA seq2seq-attention model
 --------------
