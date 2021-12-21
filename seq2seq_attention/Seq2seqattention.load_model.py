@@ -20,7 +20,7 @@ from tqdm import tqdm
 
 final_model="./final_model/Multi_mismatched_sgRNA_seq2seqattention.model.ckpt-1200"
 vocab_dict_path='./vocab_int'
-pre_filename='./data/vaildation_data'
+pre_filename='./data/prediction_data'
 output_file='./predict.sgRNAs.txt'
 rel_predictor='./NBT_react_model.h5'
 
