@@ -25,7 +25,7 @@ from matplotlib.pyplot import plot,savefig
 sourcefile='./data/train_data/letters_source_uniqe_all.txt'
 targetfile='./data/train_data/letters_target_uniqe_all.txt'
 feedback_filename='./data/feedback_data'
-vaildation_filename='./data/vaildation_data'
+prediction_filename='./data/prediction_data'
 rel_predictor='./NBT_react_model.h5'
 model_save_loc='./model_save'
 final_model_loc='./final_model'
@@ -233,7 +233,7 @@ def load_train_val_seq(filename):
 
 
 train_seq=load_train_val_seq(feedback_filename)
-val_seq=load_train_val_seq(vaildation_filename)
+val_seq=load_train_val_seq(prediction_filename)
 train_int=binary_val_seq(train_seq,source_letter_to_int)
 val_int=binary_val_seq(val_seq,source_letter_to_int)
 
