@@ -26,8 +26,7 @@ Pre-trained models were in Multi_final_model and Single_final_model.<br>
     python Seq2seqattention.load_model.py
 
 User need to edit scripts to modify some settings. <br>
-`sourcefile` : 1978 DNA targets (/data/train_data/letters_source_uniqe_all.txt) as initial training set. We performed 1-5 fold cross validation with letters_source_uniqe_train_1/2/3/4/5.<br>
-`targetfile` : 1978 matched sgRNA or high activity mismatched sgRNA (/data/train_data/letters_target_uniqe_all.txt) as initial training set. Their relative activity were recorded for further iteration.<br>
+
 `pre_filename`   : DNA target sequences waited to be predicted mismatched sgRNAs.<br>
 `vocab_dict_path`     : Dict for encoding sequences into binary.<br>  
 `rel_predictor`       : Pre-trained relative activity predictor.<br>
