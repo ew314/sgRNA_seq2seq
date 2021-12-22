@@ -6,8 +6,8 @@ We trained one model with predicted resuls of feedback set, validated in predict
     python keras.pre.class.py
 
 User need to edit scripts to modify some settings. <br>
-`feedback_data_pre_result` : predicted result of feedback set from pre-trained seq2seq-attention model.<br>
-`validation_data_pre_result` : predicted result of validation set from pre-trained seq2seq-attention model.<br>
+`feedback_data_pre_result` : predicted result of feedback set from pre-trained multi-mismatch seq2seq-attention model.<br>
+`prediction_data_pre_result` : predicted result of prediction set from pre-trained multi-mismatch seq2seq-attention model.<br>
 `model_save_loc`   : Folder path for two trained classifier models.<br>
 `figure_save_loc` : Folder path for validation results (ROC and PR-AUC figures).<br>
 
