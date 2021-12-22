@@ -51,7 +51,7 @@ from matplotlib.pyplot import plot,savefig
 
 
 feedback_data_pre_result='./data/feedback_data.txt'
-validation_data_pre_result='./data/vaildation_data.txt'
+prediction_data_pre_result='./data/prediction_data.txt'
 model_save_loc='./model_save_loc'
 figure_save_loc='./figure_save_loc'
 
@@ -167,7 +167,7 @@ for i in range(1,len(m1)):
 		y_data[0].append(np.array([0,1]))		
 
 
-f1=open(validation_data_pre_result,'r')
+f1=open(prediction_data_pre_result,'r')
 m1=f1.readlines()
 f1.close()
 for i in range(1,len(m1)):
@@ -346,7 +346,7 @@ acc,pre,tpr,tnr,F1=Confusion_Matrix_softmax(y_val,pre_label)
 print('class','acc:',acc,'  pre:',pre,'  tpr:',tpr,'  tnr',tnr)
 print('F1:',F1)
 
-mp = "%s/train_by_validation_model.h5"%model_save_loc
+mp = "%s/train_by_prediction_model.h5"%model_save_loc
 model_class.save(mp)
 	
 
@@ -365,7 +365,7 @@ plt.xlabel('False positive rate')
 plt.ylabel('True positive rate')
 plt.title('ROC curve')
 plt.legend(loc='best')
-plt.savefig('%s/train_by_validation.ROC.png'%figure_save_loc, dpi=300)
+plt.savefig('%s/train_by_prediction.ROC.png'%figure_save_loc, dpi=300)
 plt.close('all')
 plt.clf()	
 
@@ -380,6 +380,6 @@ plt.plot(lr_recall, lr_precision,'#1F77B4',label='val (AUC = {:.3f})'.format(lr_
 plt.xlabel('Recall')
 plt.ylabel('Precision')
 plt.legend(loc='best')
-plt.savefig('%s/train_by_validation.PR_AUC.png'%figure_save_loc, dpi=300)
+plt.savefig('%s/train_by_prediction.PR_AUC.png'%figure_save_loc, dpi=300)
 plt.close('all')
 plt.clf()		
