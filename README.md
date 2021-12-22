@@ -21,7 +21,7 @@ seq2seq-attention
 This model is trained to predict matched sgRNA or mismatched sgRNA with high activity for input DNA target. Relative activity of mismatched sgRNA are predicted with the relative activity predictor above.<br>
 
 ---
-Promotion potential classifier
+output classifier
 ---------------------------------
 These models are trained to classify which kind of DNA input would be predicted with matched sgRNA or mismatched sgRNA by seq2seq-attention model.<br>
 
