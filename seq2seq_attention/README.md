@@ -10,10 +10,10 @@ This repository includes an approach to training Single-mismatched sgRNA seq2seq
     python Single_mismatched_sgRNA_seq2seqattention.15fold.py/Multi_mismatched_sgRNA_seq2seqattention.py
 
 User need to edit scripts to modify some settings. <br>
-`sourcefile` : 1978 DNA targets (/data/train_data/letters_source_uniqe_all.txt) as initial training set. We performed 1-5 fold cross validation with letters_source_uniqe_train_1/2/3/4/5.<br>
-`targetfile` : 1978 matched sgRNA or high activity mismatched sgRNA (/data/train_data/letters_target_uniqe_all.txt) as initial training set. Their relative activity were recorded for further iteration.<br>
-`feedback_filename`   : 40,000 DNA target sequences randomly chosen from Human GeCKOv2 Library[1] for feedback step to enlarge training set.<br>
-`prediction_filename` : 40,000 DNA target sequences randomly chosen from Human GeCKOv2 Library[1] for prediction step to test model performance.<br>
+`sourcefile` : 1978 DNA targets[1] (/data/train_data/letters_source_uniqe_all.txt) as initial training set. We performed 1-5 fold cross validation with letters_source_uniqe_train_1/2/3/4/5.<br>
+`targetfile` : 1978 matched sgRNA or high activity mismatched sgRNA[1] (/data/train_data/letters_target_uniqe_all.txt) as initial training set. Their relative activity were recorded for further iteration.<br>
+`feedback_filename`   : 40,000 DNA target sequences randomly chosen from Human GeCKOv2 Library[2] for feedback step to enlarge training set.<br>
+`prediction_filename` : 40,000 DNA target sequences randomly chosen from Human GeCKOv2 Library[2] for prediction step to test model performance.<br>
 `rel_predictor`       : Pre-trained relative activity predictor.<br>
 `model_save_loc`      : Folder path for temporary trained models during 1200 epoches.<br>
 `final_model_loc`     : Folder path for final trained model after 1200 epoches.<br>
@@ -33,4 +33,5 @@ User need to edit scripts to modify some settings. <br>
 `final_model`     : Pre-trained seq2seq-attention model.<br>
 `output_file`     : Output file name.<br>
 
-[[1]Sanjana NE, Shalem O, Zhang F: Improved vectors and genome-wide libraries for CRISPR screening. Nature methods 2014, 11(8):783-784.](https://www.nature.com/articles/nmeth.3047)<br>
+[[1].Jost, M., Santos, D.A., Saunders, R.A. et al. Titrating gene expression using libraries of systematically attenuated CRISPR guide RNAs. Nat Biotechnol 38, 355–364 (2020).](https://www.nature.com/articles/s41587-019-0387-5)<br>
+[[2]Sanjana NE, Shalem O, Zhang F: Improved vectors and genome-wide libraries for CRISPR screening. Nature methods 2014, 11(8):783-784.](https://www.nature.com/articles/nmeth.3047)<br>
