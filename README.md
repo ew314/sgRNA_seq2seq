@@ -31,3 +31,8 @@ Absolute activity predictor
 this model is trained to predict the absolute off-target activity on genome.<br>
 
 ---
+Supplementary Tables.docx
+---------------------------------
+The Supplementary Table 1,2,3 in article Wei-Xin Hu, Yu Rong, Yan Guo, Feng Jiang, Wen Tian, Hao Chen, Shan-Shan Dong, Tie-Lin Yang, ExsgRNA: reduce off-target efficiency by on-target mismatched sgRNA, Briefings in Bioinformatics, 2022;, bbac183(https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac183/6587171).<br>
+
+---
